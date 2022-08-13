@@ -15,6 +15,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link rel="stylesheet" href="./css/haus.css" />
   </head>
   <body>
@@ -37,7 +38,7 @@
               <a href="" class="nav-item-link">Our story</a>
             </li>
           </ul>
-          <a href="haus.html" class="logo">Haus</a>
+          <a href="haus.html" class="logo title" data-aos="zoom-in">Haus</a>
           <ul class="nav-list">
             <li class="nav-list-item">
               <a href="" class="nav-item-link">Newsletter</a>
@@ -56,38 +57,123 @@
       <section class="hero">
         <div class="hero-container container">
           <div class="hero-text">
-            <h1 class="hero-title title">Alcohol for the modern drinker</h1>
-            <p class="hero-pretitle">
+            <h1 class="hero-title title" data-aos="zoom-in">
+              Alcohol for the modern drinker
+            </h1>
+            <p class="hero-pretitle" data-aos="zoom-in">
               Light and refreshing flavors made with real, clean ingredients you
               can feel good about. Just pour, sip, and enjoy.
             </p>
-            <button type="button" class="hero-btn">Shop ALL</button>
+            <button type="button" class="hero-btn" data-aos="zoom-in">
+              Shop ALL
+            </button>
           </div>
         </div>
       </section>
       <section class="benefits">
-        <div class="container">
+        <div class="benefits-container container">
           <h2 class="visually-hidden">Benefits</h2>
           <ul class="benefits-list">
             <li class="benefits-item">
               <p class="benefits-pretitle">
                 "What makes Haus so special is its incredible flavors."
               </p>
+              <a href="" class="benefits-linc">
+                <img
+                  src="./images/Restorant1.png"
+                  alt="logo-restorant"
+                  class="benefits-logo"
+                />
+              </a>
             </li>
             <li class="benefits-item">
               <p class="benefits-pretitle">
                 “For the wine or cocktail lover who’s tried it all and wants
                 something new and refreshing.”
               </p>
+              <img
+                src="./images/Restorant2.png"
+                alt="logo-restorant"
+                class="benefits-logo"
+              />
             </li>
             <li class="benefits-item">
               <p class="benefits-pretitle">
                 “Cleaner, responsibly sourced, and lower in alcohol.”
               </p>
+              <img
+                src="./images/Restorant3.png"
+                alt="logo-restorant"
+                class="benefits-logo"
+              />
             </li>
           </ul>
         </div>
       </section>
+      <section class="goods">
+        <div class="goods-container container">
+          <h2 class="goods-title" data-aos="zoom-in">
+            Made with natural ingredients, nothing fake
+          </h2>
+          <p class="goods-pretitle">Shop All Flavors</p>
+          <ul class="goods-list">
+            <li class="goods-card">
+              <img src="./images/goods1.png" alt="" class="goods-img" />
+              <h3 class="goods-item-title">The Sampler Kit</h3>
+              <p class="goods-text">
+                Try a variety of Haus flavors with our customizable four-bottle
+                kit. Each bottle serves 2-3 drinks.
+              </p>
+              <button type="button" class="goods-btn">Shop Now</button>
+            </li>
+            <li class="goods-card">
+              <img src="./images/goods2.png" alt="" class="goods-img" />
+              <h3 class="goods-item-title">Grapefruit Jalapeño</h3>
+              <p class="goods-text">
+                Light and refreshing, this aperitif is a bright blend of citrus
+                with a subtle kick of fresh jalapeño.
+              </p>
+              <button type="button" class="goods-btn">Shop Now</button>
+            </li>
+            <li class="goods-card">
+              <img src="./images/goods3.png" alt="" class="goods-img" />
+              <h3 class="goods-item-title">Citrus Flower</h3>
+              <p class="goods-text">
+                A fresh Californian take on the apéritif. Made with crisp lemon
+                and subtle elderflower.
+              </p>
+              <button type="button" class="goods-btn">Shop Now</button>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="apperitifs">
+        <div class="apperitifs-container container">
+          <img
+            src="./images/aperitifs.jpg"
+            alt="Glasses with aperitif"
+            class="apperitifs-img"
+          />
+          <div class="apperitifs-info">
+            <h2 class="apperitifs-title title" data-aos="zoom-in">
+              An intro to apéritifs
+            </h2>
+            <p class="apperitifs-text">
+              Apéritifs are a category of spirits with complex flavors derived
+              from fruits, herbs, and botanicals. Their lighter alcohol content
+              (less than whiskey, more than wine) makes them perfect to sip all
+              evening.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="advantage">
+        <div class="advantage-container container"></div>
+      </section>
     </main>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
