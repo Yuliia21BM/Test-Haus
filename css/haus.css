@@ -303,6 +303,7 @@ body {
 }
 
 .goods-card {
+    position: relative;
     padding-left: 10px;
     padding-right: 10px;
     width: 382px;
@@ -311,6 +312,33 @@ body {
 
 .goods-img {
     max-width: 100%;
+}
+
+.goods-sale{
+    position: absolute;
+    top: 23px;
+    right: 19px;
+
+    background-color: var(--darc-bgc);
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.goods-sale-text{
+    width: 58px;
+
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: var(--white-color);
 }
 
 .goods-item-title {
@@ -397,4 +425,28 @@ body {
 .advantage{
     padding-top: 60px;
     padding-bottom: 50px;
+}
+
+.advantage-container{
+    display: flex;
+}
+
+.advantage-list{
+    max-width: 385px;
+    margin-right: 55px;
+    margin-top: 52px;
+}
+
+.advantage-item {}
+
+.advantage-title {}
+
+.advantage-title-other{
+}
+
+.advantage-text {}
+
+
+.advantage-img{
+    width: 880px;
 }
